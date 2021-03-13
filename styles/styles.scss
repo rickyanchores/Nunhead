@@ -1,0 +1,50 @@
+body{
+    background: #eee;
+  }
+  .container{
+    margin: auto;
+    width: 80%;
+    
+    height:100%;
+    boder: solid 2px black;
+  }
+  
+  #header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    #nav-links{
+      display: flex;
+      justify-content: space-around;
+      width: 40%;
+      list-style: none;
+      a{
+        text-decoration: none;
+        color: #333;
+      }
+    }
+  }
+  
+  img{
+    width: 100%;
+  }
+  
+  #showcase{
+    
+    h1{
+      text-align: center;
+    }
+    p{
+      padding: 5em;
+      color: #333;
+    }
+  }
+  
+  #sec1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .txt{
+      padding: 2em;
+    }
+  }
